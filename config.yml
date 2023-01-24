@@ -1,0 +1,42 @@
+baseURL: ""
+languageCode: en-us
+title: Blog
+theme: PaperMod
+
+
+params:
+
+  homeInfoParams:
+    Title: 'Hello Stranger'
+    Content: 'Welcome'
+  socialIcons:
+    - name: facebook
+      url:
+    - name: twitter
+      url:
+    - name: github
+      url:
+  
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+      # weight is the order in which they'll appear
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30

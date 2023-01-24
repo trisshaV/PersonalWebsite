@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://trisshav.github.io/PersonalWebsite/"
 languageCode: en-us
 title: Blog
 theme: hugo-PaperMod

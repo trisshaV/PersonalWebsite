@@ -1,42 +1,46 @@
 baseURL: "https://trisshav.github.io/PersonalWebsite/"
 languageCode: en-us
-title: Blog
+title: trish
 theme: hugo-PaperMod
 
-
+enableEmoji: true
 params:
 
-  homeInfoParams:
-    Title: 'Hello Stranger'
-    Content: 'Welcome'
+  profileMode:
+    enabled: true
+    title: "trissha varman"
+    subtitle: 'welcome! ☻'
+    imageUrl: img/me.jpg
+    imageWidth: 368
+    imageHeight: 350
+
   socialIcons:
-    - name: facebook
-      url:
+    - name: linkedin
+      url: https://www.linkedin.com/in/trissha-varman-3b58401b9/
     - name: twitter
-      url:
+      url: 
     - name: github
-      url:
+      url: https://github.com/trisshaV
   
   cover:
     linkFullImages: true
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
-  ShowShareButtons: true
   ShowPostNavLinks: true
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier:
+      name: who?
+      url: /who/
       weight: 10
       # weight is the order in which they'll appear
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
-    - identifier: archives
-      name: archives
-      url: /archives/
       weight: 30
+    - identifier: archives
+      name: blog
+      url: /archives/
+      weight: 20
